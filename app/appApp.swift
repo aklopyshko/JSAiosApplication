@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+import UIKit
+import Firebase
+
 
 @main
 struct appApp: App {
@@ -13,5 +16,11 @@ struct appApp: App {
         WindowGroup {
             ContentView()
         }
+    }
+    func application(_ application: UIApplication,
+      didFinishLaunchingWithOptions launchOptions:
+          [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+      FirebaseApp.configure()
+      return true
     }
 }

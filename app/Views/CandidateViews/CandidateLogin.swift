@@ -30,6 +30,9 @@ struct CandidateLogin: View {
             }) {
                 Text("Войти")
             }.padding()
+            .foregroundColor(.white)
+            .background(LinearGradient(gradient: Gradient(colors: [Color.black, Color.gray]), startPoint: .leading, endPoint: .trailing))
+            .cornerRadius(40)
             .navigationBarBackButtonHidden(true)
             .navigationBarItems(leading:
                 Button(action: {

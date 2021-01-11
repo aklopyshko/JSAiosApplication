@@ -51,6 +51,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE05CBCB25AC7B0500B6C19B /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
 		EEB16EC225AB68B4005A35AD = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +120,7 @@
 		EEB16EEB25AB8DA9005A35AD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EE05CBCB25AC7B0500B6C19B /* MainViews */,
 				EEB16EE325AB82DD005A35AD /* WorkerViews */,
 				EEB16EE225AB82CD005A35AD /* CandidateViews */,
 			);
